@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: darkblue;
+  width: 500px;
+  margin: auto;
+  padding: 50px;
+}
+
+h3 {
+  margin-bottom: 25px;
+  color: #9AABD8;
+  font-weight: bold;
+}
+
+.score {
+  color: rgb(190, 83, 101);
+  background: #080001;
+  height: 120px;
+  width: 155px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#home-score, #guest-score {
+  font-size: 150px;
+}
+
+button {
+  border: 2px solid #9AABD8;
+  background: transparent;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+}
+
+.home, .guest{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  margin-top: 25px;
+}
