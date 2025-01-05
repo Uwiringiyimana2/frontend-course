@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background: rgb(23, 23, 56);
+  color: white;
+  padding: 100px 50px;
+}
+
+span {
+  color: green;
+}
+
+h1 {
+  margin-bottom: 1px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+#btn-generate {
+  background: lightgreen;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.pwd {
+  border-top: 1px solid gray;
+  margin-top: 10px;
+}
+
+#btn-pwd1, #btn-pwd2 {
+  width: 200px;
+  height: 25px;
+  margin: 20px 0;
+  background: rgb(83, 74, 74);
+  border-radius: 3px;
+  color: lightgreen;
+  border: none;
+}
