@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  /* background-color: #D7D7D7; */
+}
+
+.container {
+  width: 570px;
+  margin: 0 auto;
+}
+
+header,
+section {
+  padding: 100px 50px;
+}
+
+header {
+  background-color: #D7D7D7;
+}
+
+/* .about-me {
+  background-color: #FFEAEA;
+} */
+
+.articles {
+  background-color: #EAF9FF;
+}
+
+.inverse {
+  background-color: #252525;
+  color: #fff;
+}
+
+/* Topography */
+h1,
+h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 42px;
+  margin-top: 0;
+  border-bottom: 1px solid #c4c4c4;
+  border-top: 1px solid #c4c4c4;
+  padding: 30px 0;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.small-text {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+span {
+  font-weight: 900;
+  display: block;
+  color: #99D930;
+}
+
+h1 span {
+  font-size: 80px;
+}
+
+h2 span {
+  font-size: 60px;
+}
+
+a {
+  color: #99D930;
+  font-weight: 900;
+}
+
+a:hover,
+a:focus {
+  color: #131313;
+}
+
+.btn {
+  color: #252525;
+  text-decoration: none;
+  background-color: #99D930;
+  padding: 10px 25px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  background-color: #252525;
+}
