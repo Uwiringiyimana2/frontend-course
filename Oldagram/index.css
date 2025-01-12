@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.wraper {
+  width: 500px;
+  border:  solid #252525;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.container {
+  padding: 15px 30px 0 20px;
+}
+
+.logo {
+  width: 125px;
+}
+
+.circle-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.feed-profile {
+  display: flex;
+  justify-content: sstart;
+  align-items: center;
+}
+
+.feed-info {
+  padding-left: 10px;
+  text-align: start;
+}
+
+.post-img {
+  width: 500px;
+  height: 500px;
+  margin: 10px 0;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.icon:hover {
+  color: whitesmoke;
+  opacity: 0.7;
+}
+
+.section-icon,
+.reactions {
+  text-align: start;
+  padding-left: 15px;
+}
+
+.likes,
+.reactions span {
+  font-weight: 600;
+}
+
+.reactions {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 23px;
+}
